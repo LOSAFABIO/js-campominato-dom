@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.w_100{
+    width: 100%;
+}
+
+.my_height80{
+    height: 80px;
+}
+
+.my_height28{
+    height: 28px;
+}
+
+.immagine-logo{
+    height: 80px;
+    width: 80px;
+}
+
+
+.b_color_container{
+    background-color: aquamarine;
+    height: 800px;
+}
+.tabella{
+    margin: 0 auto;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px black;
+}
+
+.blu{
+    background-color: rgb(25, 155, 241);
+}
+
+.rosso{
+    background-color: red;
+}
+
+.game_over{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
